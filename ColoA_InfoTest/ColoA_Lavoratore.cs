@@ -16,7 +16,8 @@ namespace ColoA_InfoTest
                 {
                     ColoA_esperienze = value;
                 }
-                }
+            }
+
         }
     }
 }

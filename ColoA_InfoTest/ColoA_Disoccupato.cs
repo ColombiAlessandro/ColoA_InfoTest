@@ -14,7 +14,7 @@ namespace ColoA_InfoTest
         {
             get { return ColoA_voto; }
             set {
-                if (value >= 0 && value =< 110)
+                if (value >= 0 && value <= 110)
                 {
                     ColoA_voto = value;
                 }
