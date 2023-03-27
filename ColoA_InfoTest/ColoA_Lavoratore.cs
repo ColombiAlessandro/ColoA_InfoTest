@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColoA_InfoTest
 {
-    public  class ColoA_Lavoratore : ColoA_Candidato
+    public  class ColoA_Lavoratore : ColoA_Candidato, IEquatable<ColoA_Lavoratore>, IComparable<ColoA_Lavoratore>
     {
         private int ColoA_esperienze;
         public int ColoA_Esperienze
@@ -33,6 +33,35 @@ namespace ColoA_InfoTest
         public override bool isIdoneo()
         {
             return punteggio() >= 60;
+        }
+        public override string ToString()
+        {
+            return base.ToString() + ColoA_Esperienze.ToString() + ";";
+        }
+        public bool Equals(ColoA_Lavoratore cand)
+        {
+            bool controllo = base.Equals(cand);
+            if (cand.ColoA_Esperienze != this.ColoA_Esperienze)
+            {
+                controllo = false;
+            }
+            return controllo;
+        }
+        public int CompareTo(ColoA_Lavoratore lav)
+        {
+            if (this.punteggio() < lav.punteggio())
+            {
+                return -1;
+            } else if(this.punteggio()> lav.punteggio())
+            {
+                return 1;
+            }
+            return 0;
+
+        }
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }

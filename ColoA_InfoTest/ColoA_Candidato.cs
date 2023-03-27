@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColoA_InfoTest
 {
-    public abstract class ColoA_Candidato
+    public abstract class ColoA_Candidato: IEquatable<ColoA_Candidato>
     {
         private int ColoA_matricola;
         private string ColoA_nome;
@@ -42,5 +42,30 @@ namespace ColoA_InfoTest
         }
         public abstract bool isIdoneo();
         public abstract int punteggio();
+        public override string ToString()
+        {
+            return ColoA_Matricola.ToString() + ";" + ColoA_Nome + ";" ;
+        }
+        public bool Equals(ColoA_Candidato cand)
+        {
+            bool controllo = true;
+            if(cand == null)
+            {
+                controllo= false;
+            }
+            if (cand.ColoA_Nome != this.ColoA_Nome)
+            {
+                controllo = false;
+            }
+            if (cand.ColoA_Matricola != this.ColoA_Matricola)
+            {
+                controllo = false;
+            }
+            return controllo;
+        }
+        public override int GetHashCode()
+        {
+            return (ColoA_Matricola,ColoA_Nome).GetHashCode();
+        }
     }
 }
