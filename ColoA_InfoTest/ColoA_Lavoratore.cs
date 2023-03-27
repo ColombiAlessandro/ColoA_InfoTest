@@ -17,7 +17,22 @@ namespace ColoA_InfoTest
                     ColoA_esperienze = value;
                 }
             }
-
+        }
+        public ColoA_Lavoratore(): base()
+        {
+            ColoA_Esperienze = 0;
+        }
+        public ColoA_Lavoratore(int esperienze, int matricola, string nome) : base (matricola, nome)
+        {
+            ColoA_Esperienze = esperienze;
+        }
+        public override int punteggio()
+        {
+            return 20 * ColoA_Esperienze;
+        }
+        public override bool isIdoneo()
+        {
+            return punteggio() >= 60;
         }
     }
 }
