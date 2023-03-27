@@ -52,6 +52,7 @@ namespace ColoA_InfoTest
             if (this.punteggio() < lav.punteggio())
             {
                 return -1;
+
             } else if(this.punteggio()> lav.punteggio())
             {
                 return 1;

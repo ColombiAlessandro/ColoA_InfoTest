@@ -1,0 +1,10 @@
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\bin\Debug\ColoA_InfoTest.exe.config
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\bin\Debug\ColoA_InfoTest.exe
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\bin\Debug\ColoA_InfoTest.pdb
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.csproj.AssemblyReference.cache
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.Properties.Resources.resources
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.csproj.GenerateResource.cache
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.csproj.CoreCompileInputs.cache
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.exe
+C:\Users\colombi.19314.PALEOCAPA\Desktop\ColoA_InfoTest\ColoA_InfoTest\obj\Debug\ColoA_InfoTest.pdb
