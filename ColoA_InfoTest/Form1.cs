@@ -84,6 +84,7 @@ namespace ColoA_InfoTest
         public void OrdinaDec()
         {
             ColoA_Candidati.Sort();
+            ColoA_Candidati.Reverse();
         }
     }
 }
